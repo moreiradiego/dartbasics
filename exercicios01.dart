@@ -11,7 +11,7 @@ void main() {
   print("Nome: $nome");
   
   Calculadora calc = Calculadora();
-  var e = calc.soma(2, 4);
+var e = calc.soma(2, 4);
   print("Acesso do metodo da classe: $e");
   var f = Calculadora.subtra(6, 2);
   print("Esse é um método estático de subtração $f");
